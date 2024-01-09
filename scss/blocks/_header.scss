@@ -19,6 +19,7 @@
         color: #fff;
 
         span{
+            color: inherit;
             font-size: 18px;
             display: block;
         }
@@ -35,6 +36,8 @@
     }
 
     &__contacts{
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

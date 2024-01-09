@@ -1,13 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=MuseoModerno:200,300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
-*{
-    box-sizing: border-box;
-}
-
-body{
-    font-family: "MuseoModerno";
-}
-
 .container{
     max-width: 940px;
     margin: 0 auto;
@@ -15,8 +7,31 @@ body{
 
 .btn{
     display: block;
+    background: #c70101;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+
+    &_header{
+        width: 153px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    &_promo{
+        font-size: 16px;
+        width: 300px;
+        height: 50px;
+        align-self: end;
+    }
 }
 
+@import "technician/reset";
 @import "blocks/promo";
 @import "blocks/header";
 
