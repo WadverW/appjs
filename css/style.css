@@ -1,4 +1,59 @@
-@import url(https://fonts.googleapis.com/css?family=MuseoModerno:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=MuseoModerno:200,300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "MuseoModerno";
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+}
+
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url(../img/bgs/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 250px;
+}
+.header__logo img {
+  width: 100%;
+}
+.header__official {
+  font-family: MuseoModerno;
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 12px;
+  text-align: center;
+  color: #fff;
+}
+.header__official span {
+  font-size: 18px;
+  display: block;
+}
+.header__phone-number {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: right;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 4px;
 }/*# sourceMappingURL=style.css.map */

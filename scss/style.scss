@@ -1,5 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=MuseoModerno:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=MuseoModerno:200,300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-family: "MuseoModerno";
 }
+
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: block;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+
