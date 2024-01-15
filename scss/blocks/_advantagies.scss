@@ -1,0 +1,49 @@
+.advantagies-section{
+    padding: 70px 0 65px 0;
+    background: #F6F6F6;
+    // min-height: 473px;
+
+    .general-tittle{
+
+    }
+
+    &__items{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item{
+        width: 30%;
+
+        .advantagies-icon{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+
+        .advantagies-heading{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 29px;
+            text-align: center;
+            padding-bottom: 20px;
+           
+        }
+
+        .advantagies-text{
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 18px;
+            text-align: center;
+            color: #000;
+            // text-wrap:pretty;
+            .advantagies-upcase{
+                text-transform: uppercase;
+                color: #c70101;
+            }
+        }
+    }
+}
+

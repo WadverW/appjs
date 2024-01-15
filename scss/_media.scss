@@ -1,0 +1,58 @@
+@media (max-width: 1200px){
+  
+}
+
+@media (max-width: 900px){
+  .container{
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media (max-width: 700px){
+    .advantagies-section{
+        padding: 50px 0 45px 0;
+    
+        &__items{
+            padding-top: 40px;
+            flex-direction: column;
+        }
+
+        &__item{
+            width: 80%;
+            margin-bottom: 30px;
+
+            .advantagies-heading{
+                font-size: 22px;          
+            }
+    
+            .advantagies-text{
+                font-size: 16px;
+                line-height: 24px;
+                text-wrap: stable;
+            }
+        }
+    }
+
+    .free-consult-section{
+        // min-height: 680px;
+        padding: 72px 0 78px 0;
+    
+        &__content{
+            .general-title_white{
+                font-size: 28px;
+                width: 100%;
+                text-align: center;
+            }
+
+            .feedback-form{
+                width: 60%;
+                margin: 30px auto 0 auto;
+            }
+        }
+
+        &__descr{
+            text-align: center;
+        }
+    
+    }
+}
